@@ -218,12 +218,12 @@ function Home() {
                   {resumeName ? resumeName : "Click to upload or drag & drop"}
                 </p>
 
-                <p className="text-xs text-[#7d8590]">PDF or DOCX (Max 5MB)</p>
+                <p className="text-xs text-[#7d8590]">PDF (Max 5MB)</p>
                 <input
                   id="resume"
                   ref={resumeRef}
                   type="file"
-                  accept=".pdf,.docx"
+                  accept=".pdf"
                   onChange={handleResumeChange}
                   hidden
                 />
